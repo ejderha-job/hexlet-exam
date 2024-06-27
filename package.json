@@ -1,0 +1,15 @@
+{
+  "name": "hexlet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "docker build . -t hexlet-test-1",
+    "start": "docker run -p 3001:3000 hexlet-test-1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
